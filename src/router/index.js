@@ -4,6 +4,7 @@ import admin from '@/components/admin'
 import listTable from '@/components/listTable'
 import order from '@/components/content'
 import kitchen from '@/components/kitchen'
+import home from '@/components/home'
 
 Vue.use(Router)
 
@@ -18,12 +19,9 @@ const router = new Router({
       redirect: '/home'
     },
     {
-      path: '/home',
+      path: '/client',
       name: 'client',
-      component: listTable,
-      meta: {
-        requiresTable: true
-      }
+      component: listTable      
     },
     {
       path: '/order/:userId/:num',
@@ -39,6 +37,11 @@ const router = new Router({
       path: '/kitchen',
       name: 'kitchen',
       component: kitchen
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: home
     }
   ]
 })

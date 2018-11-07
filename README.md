@@ -1,21 +1,18 @@
-# proyect-pwa-vue
+# Proyecto Burger Queen
 
-> pwa vue for boocampt
+Es una aplicación que permita gestionar los servicios que ofrece un restaurant. Esta diseñado para tres usuario el administrador, camarero y para el área de la cocina. Cada usuario puede gestionar pedidos en tiempo real.
+Para este proyecto utilicé el framework Vue cli versión 3 con vutify para los estilos del proyecto
+### Hito 1: Tomar pedidos
 
-## Build Setup
+* Ingresar nombre del cliente.
+* Filtrar _menú_ por _desayuno_ y _resto del día_.
+* Agregar ítem al pedido.
+* Eliminar ítem del pedido.
+* Mostrar _resumen_ de pedido con todos los items y el total.
+* Enviar a cocina (esto debe guardar el pedido).
 
-``` bash
-# install dependencies
-npm install
+### Hito 2: Ver/atender pedidos
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* Vista de pedidos pendientes
+* Marcar pedido como listo
+* Ver historial de pedidos

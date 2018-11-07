@@ -3,11 +3,11 @@
       <nav>
         <div class="nav-wrapper">
           <a href="#!" class="brand-logo"><i class="material-icons">local_dining</i>Burger Queen</a>
-          <ul class="right hide-on-med-and-down">
-            <li><router-link to="/"><i class="material-icons">assignment_turned_in</i></router-link></li>
+          <ul class="right hide-on-med-and-down">            
+            <li><router-link to="/"><i class="material-icons">home</i></router-link></li>
+            <li><router-link to="/client"><i class="material-icons">assignment_turned_in</i></router-link></li>
             <li><router-link to="/kitchen"><i class="material-icons">restaurant</i></router-link></li>
             <li><router-link to="/admin"><i class="material-icons">assignment_ind</i></router-link></li>
-            <li><a href="#"><i class="material-icons">more_vert</i></a></li>
           </ul>
         </div>
       </nav>
@@ -114,7 +114,7 @@ footer{
   background: #8080806e;
 }
 .content {
-  margin-top: 80px !important;
+  margin-top: 60px !important;
 }
 @media only screen and (max-width: 992px){
   .hide-on-med-and-down {
